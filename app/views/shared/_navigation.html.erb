@@ -1,0 +1,39 @@
+<header class="myheader">
+  <div class="my-brand-nav">
+      <%= link_to root_path, class: "logo" do %>
+        Houda<span> Cherkaoui</span>
+      <%end %>
+  </div>
+
+  <ul class="my-nav-list">
+        <li class="nav-list__item">
+          <%= link_to root_path, class: "nav-list__link active" do %>
+            Home
+          <% end %>
+        </li>
+
+        <li class="nav-list__item">
+          <%= link_to root_path, class: "nav-list__link active" do %>
+            About
+          <% end %>
+        </li>
+
+        <li class="nav-list__item">
+          <%= link_to root_path, class: "nav-list__link active" do %>
+            Projects
+          <% end %>
+        </li>
+
+        <li class="nav-list__item">
+          <%= link_to 'Blog', root_path, class: "nav-list__link" %>
+        </li>
+
+        <li class="nav-list__item">
+          <%= link_to root_path, class: "nav-list__link active" do %>
+            Contact-me
+          <% end %>
+        </li>
+
+  </ul>
+
+</header>
